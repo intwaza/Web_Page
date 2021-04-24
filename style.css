@@ -1,0 +1,32 @@
+#head{
+    text-align: center;
+}
+#heading{
+    text-align: center;
+    text-decoration: underline;
+}
+#paragraph{
+    text-align: center;
+}
+p{
+    color: gray;
+}
+.column{
+    float: left;
+    width: 33.3%;
+    height: 300px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+hr{
+    border: 2px solid purple;
+    
+}
+q{
+    margin-left: 500px;
+    font-weight: bold;
+    font-size: 30px;
+}
